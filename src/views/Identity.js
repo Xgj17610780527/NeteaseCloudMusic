@@ -8,7 +8,7 @@ class Identity extends React.Component {
         return (
             <div>
                 Identity
-                <Login ref = ""></Login>
+                <Login></Login>
             </div>
         )
     }

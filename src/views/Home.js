@@ -2,14 +2,13 @@
  * Created by Administrator on 2019/9/16 0016.
  */
 import React from 'react'
-import '../font/iconfont.css'
+import '../assets/font/iconfont.css'
 import {
     NavLink,
     Route
 } from 'react-router-dom'
 
-import '../public.css'
-import '../font/iconfont.css'
+import '../assets/style/nav.css'
 
 import Find from './Find'
 import Video from './Video'
