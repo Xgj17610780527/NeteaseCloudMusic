@@ -53,30 +53,3 @@ export default class Home extends React.Component {
         )
     }
 }
-
-// <div className = "home-body">
-//     <div className = "bottom-style">
-//     <ul className = "bottom">
-//     <li>
-//     <span class="iconfont" className = "iconfont">&#xe62f;</span>
-// <p>发现</p>
-// </li>
-// <li onClick = {}>
-//     <span class="iconfont" className = "iconfont">&#xe62f;</span>
-//     <p>发现</p>
-// </li>
-// <li>
-//     <span class="iconfont" className = "iconfont">&#xe62f;</span>
-//     <p>发现</p>
-// </li>
-// <li>
-//     <span class="iconfont" className = "iconfont">&#xe62f;</span>
-//     <p>发现</p>
-// </li>
-// <li>
-//     <span class="iconfont" className = "iconfont">&#xe62f;</span>
-//     <p>发现</p>
-// </li>
-// </ul>
-// </div>
-// </div>
