@@ -2,7 +2,7 @@
  * Created by Administrator on 2019/9/16 0016.
  */
 import React from 'react'
-import Search from '../components/search'
+import Search from '../components/search.js'
 class Find extends React.Component {
     render(){
         return (

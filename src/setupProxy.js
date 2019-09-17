@@ -5,7 +5,7 @@ const proxy = require("http-proxy-middleware");
 module.exports = function (app) {
     // proxy是一个函数，第一个参数是 前缀
     app.use("/identity",proxy({
-        target:"http://127.0.0.1",
+        target:"http://47.97.9.42/",
         changeOrigin:true,
         pathRewrite:{
             "^/identity":""
