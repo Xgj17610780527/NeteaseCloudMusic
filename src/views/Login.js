@@ -28,18 +28,18 @@ export default class Login extends React.Component {
     render(){
         return (
             <div>
-                <div>
-                    手机号<input ref="phone"  type = "text" /><br/>
-                    密码<input ref="password" type = "password" /><br/>
-                    <input type = "button" onClick = {this.sendInfo.bind(this)} value = {"下一步"} />
-                    <input type = "button" value = {"？"} onClick = {this.cnm.bind(this)} />
-                </div>
-                <div>
-                    <h1>{this.state.userInfo.nickname}</h1>
-                    <img src = {this.state.userInfo.avatarUrl} />
-                </div>
-            </div>
+            <div>
+            手机号<input ref="phone"  type = "text" /><br/>
+            密码<input ref="password" type = "password" /><br/>
+            <input type = "button" onClick = {this.sendInfo.bind(this)} value = {"下一步"} />
+            <input type = "button" value = {"？"} onClick = {this.cnm.bind(this)} />
+    </div>
+        <div>
+        <h1>{this.state.userInfo.nickname}</h1>
+        <img src = {this.state.userInfo.avatarUrl} />
+    </div>
+        </div>
 
-        )
+    )
     }
 }

@@ -7,7 +7,7 @@ export default class Search extends React.Component {
     constructor(){
         super();
         this.state = {
-            result:{}
+            result: []
         }
     }
     async sendInfo(){
@@ -16,11 +16,12 @@ export default class Search extends React.Component {
         })
         if(data.code === 200){
             this.setState({
-                result:data.result
+                result:data.result.songs
             })
         }else{
-            alert("错误")
+            alert("失败")
         }
+        console.log(data)
     }
     xixi(){
         console.log(this.state)
@@ -32,10 +33,11 @@ export default class Search extends React.Component {
                 <div>
                     <input type = "text" ref = "keywords" />
                     <input type = "button" onClick = {this.sendInfo.bind(this)} value = {"搜索"} />
+                    <input type = "button" value = {"数据"} onClick = {this.xixi.bind(this)} />
                 </div>
                 <div>
                     {
-                        this.state.result.songs.map(v => (
+                        this.state.result.map(v => (
                             <div key = {v.id}>
                                 <p>{v.name}</p>
                             </div>

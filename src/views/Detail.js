@@ -2,13 +2,13 @@
  * Created by Administrator on 2019/9/16 0016.
  */
 import React from 'react'
-class Identity extends React.Component {
+class Detail extends React.Component {
     render(){
         return (
             <div>
-                Identity
+                Detail
             </div>
         )
     }
 }
-export default Identity
+export default Detail
