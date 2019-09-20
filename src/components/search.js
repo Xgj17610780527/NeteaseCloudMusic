@@ -11,7 +11,7 @@ export default class Search extends React.Component {
         }
     }
     async sendInfo(){
-        const {data} = await axios.post("http://127.0.0.1/search" , {
+        const {data} = await axios.post("http://47.97.9.42/search/" , {
             keywords:this.refs.keywords.value
         })
         if(data.code === 200){

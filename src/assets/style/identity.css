@@ -1,0 +1,124 @@
+* {
+    margin:0;
+    padding:0;
+}
+.identity-body {
+    background:#f8f8f8;
+}
+.identity-login-avatar {
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    overflow:hidden;
+}
+.identity-login-avatar img {
+    width:100%;
+}
+.identity-login-none {
+    text-align:center;
+    padding-top:20px;
+}
+.identity-login {
+    width:100%;
+    height:160px;
+}
+.identity-login-info {
+    width:100%;
+}
+.identity-login-info div {
+    float:left;
+}
+.identity-login-info h4 {
+    float:right;
+    margin-right:140px;
+    margin-top:10px;
+}
+.identity-login-info i {
+    float:right;
+    margin-right:274px;
+    margin-top:6px;
+}
+.identity-login-runinfo ul{
+    float:left;
+    margin-top:20px;
+}
+.identity-login-runinfo ul li {
+    float:left;
+    border-right:1px solid gray;
+    padding:0 20px;
+}
+.identity-login-runinfo-bottom {
+    border:none;
+}
+.identity-message {
+    width:100%;
+    height:100px;
+    background:red;
+}
+.identity-list {
+    width:100%;
+    height:100%;
+}
+.identity-message {
+    background:white;
+}
+.identity-message ul {
+    margin-left:40px;
+}
+.identity-message ul li {
+    float:left;
+    margin-right:40px;
+}
+.identity-list .identity-list-one {
+    margin-top:10px;
+    width:100%;
+    height:48px;
+    background:white;
+}
+.identity-list .identity-list-one li {
+    margin-left:10px;
+    line-height:24px;
+}
+.identity-list .identity-list-two {
+    margin-top:10px;
+    width:100%;
+    height:100px;
+    background:white;
+}
+.identity-list .identity-list-two li {
+    margin-left:10px;
+    line-height:25px;
+}
+.identity-list .identity-list-three {
+    margin-top:10px;
+     width:100%;
+     height:48px;
+     background:white;
+ }
+.identity-list .identity-list-three li {
+    margin-left:10px;
+    line-height:24px;
+}
+.identity-list .identity-list-four {
+    margin-top:10px;
+    width:100%;
+    height:50px;
+    background:white;
+}
+.identity-list .identity-list-four li {
+    margin-left:10px;
+    line-height:25px;
+}
+.outLogin {
+    border:none;
+    border-radius:20px;
+    background:#ea4d44;
+    color:white;
+    font-size:16px;
+    width:260px;
+    height:36px;
+    font-weight:bold;
+}
+.login {
+    text-align:center;
+}

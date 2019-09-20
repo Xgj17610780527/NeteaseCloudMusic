@@ -8,6 +8,7 @@ import {
 import Home from './views/Home'
 import Login from './views/Login'
 import Detail from './views/Detail'
+import PhoneLogin from './views/PhoneLogin'
 //id为歌曲id
 
 function App() {
@@ -15,9 +16,10 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
-          <Route path = {"/login"} component = {Login}></Route>
-          <Route path = {"/detail/:id"} component = {Detail}></Route>
-          <Route path = {"/"} component = {Home}></Route>
+            <Route path = {"/login"} component = {Login}></Route>
+            <Route path = {"/phonelogin"} component = {PhoneLogin}></Route>
+            <Route path = {"/detail/:id"} component = {Detail}></Route>
+            <Route path = {"/"} component = {Home}></Route>
         </Switch>
       </Router>
     </div>
