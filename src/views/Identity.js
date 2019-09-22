@@ -75,10 +75,7 @@ export default class Identity extends React.Component {
                     <div className = "login">
                         <input className = "outLogin" type="button" value={"退出登录"} onClick = {this.outLogin.bind(this)} />
                     </div>
-
-                    <input type = "button" value = {"测试"} onClick = {this.xixi.bind(this)} />
                 </section>
-                <footer></footer>
             </div>
         )
     }

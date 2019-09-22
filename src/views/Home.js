@@ -21,9 +21,9 @@ export default class Home extends React.Component {
     render(){
         return (
             <div className = "home-body">
-                <nav className = "bottom-style">
+                <div className = "bottom-style">
                     <NavLink activeStyle = {{color:"red"}} exact to = {"/"}>
-                        <span class="iconfont" className = "iconfont">&#xe62f;</span>
+                        <span className="iconfont" className = "iconfont">&#xe62f;</span>
                         <p className = "bottom-style-size">发现</p>
                     </NavLink>
                     <NavLink activeStyle = {{color:"red"}} to = {"/video"}>
@@ -42,7 +42,7 @@ export default class Home extends React.Component {
                         <span class="iconfont" className = "iconfont">&#xe62f;</span>
                         <p className = "bottom-style-size">账号</p>
                     </NavLink>
-                </nav>
+                </div>
                 <Route exact path = {"/"} component = {Find}></Route>
                 <Route path = {"/video"} component = {Video}></Route>
                 <Route path = {"/my"} component = {My}></Route>

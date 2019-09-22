@@ -8,7 +8,7 @@ class My extends React.Component {
             <div>
                 My
             </div>
-    )
+        )
     }
 }
 export default My
