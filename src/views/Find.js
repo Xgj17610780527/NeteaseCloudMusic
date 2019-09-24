@@ -3,7 +3,6 @@
  */
 import React from 'react'
 import axios from 'axios'
-import Ce from './Ce'
 import {
     Link,
     Route,

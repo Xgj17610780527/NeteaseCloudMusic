@@ -2,8 +2,15 @@
  * Created by Administrator on 2019/9/20 0020.
  */
 import React from 'react'
-import AudioPlay from '../components/AudioPlay'
-class App extends React.Component {
+import AudioPlay from '../components/AudioPlay.js'
+class MusicPlay extends React.Component {
+    // render(){
+    //     return (
+    //         <div>
+    //             {console.log(this.props)}
+    //         </div>
+    //     )
+    // }
     constructor(props) {
         super(props);
         this.state = {
@@ -55,7 +62,6 @@ class App extends React.Component {
         const { musicList } = this.state;
         return (
             <div>
-                <p>{this.props.match.params}</p>
                 <div className="App-Content">
                     <AudioPlay
                         musicList={musicList}
@@ -64,7 +70,7 @@ class App extends React.Component {
                     />
                 </div>
             </div>
-        );
+        )
     }
 }
-export default App;
+export default MusicPlay;

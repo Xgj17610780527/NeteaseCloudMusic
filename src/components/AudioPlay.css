@@ -40,6 +40,10 @@ table {
 
 /* 主内容展示*/
 
+.App-Content {
+    height:100%;
+}
+
 .mainContent {
     height: 52px;
     width: 100%;

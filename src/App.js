@@ -12,7 +12,6 @@ import Detail from './views/Detail'
 import PhoneLogin from './views/PhoneLogin'
 import MusicPlay from './views/MusicPlay'
 import Resign from './views/Resign'
-import Ce from './views/Ce.js'
 //id为歌曲id
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
             <Switch>
                 <Route path = {"/login"} component = {Login}></Route>
                 <Route path = {"/phonelogin"} component = {PhoneLogin}></Route>
-                <Route path = {"/musicplay"} component = {MusicPlay}></Route>
+                <Route path = {"/musicplay/:id"} component = {MusicPlay}></Route>
                 <Route path = {"/detail/:id"} component = {Detail}></Route>
                 <Route path = {"/resign"} component = {Resign}></Route>
                 <Route path = {"/"} component = {Home}></Route>
